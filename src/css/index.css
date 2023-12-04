@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.first-part{
+    display: flex;
+    background-color: red;
+    position: relative;
+    padding: 33px;
+}
+.logo{
+    position: absolute;
+    left: 80px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 12px;
+    bottom: 8px;
+
+}
+.logo-text{
+    text-decoration: none;
+    font-size: 25px;
+    color:red;
+    font-weight: bold;
+}
+.first-right{
+    position: absolute;
+    left: 80%;
+    bottom: 22px;
+    word-spacing: 8px;
+}
+.login{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.account{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(139, 134, 134);
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 8px;
+    word-spacing: normal;
+}
+section{
+    position: relative;
+    padding: 20px 50px;
+}
+.Place{
+    color: rgb(23, 23, 59);
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.filter-article{
+    height: 682px;
+    width: 260px;
+    box-shadow: 0px 2px 6px rgb(188, 183, 192);
+    padding-top: 10px;
+    padding-left: 10px;  
+}
+    .filter-article-title{
+        color: #192F60;
+        font-size: 13px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .filter-article-content1{
+        color: #192F60;
+        font-size: 10px; 
+        font-weight: 600;
+ 
+    }
+    .filter-article-content2{
+        width: 140px;
+        height: 20px;
+        /* UI Properties */
+        border: 1px solid #8C96AB;
+        border-radius: 3px;
+        top: 278px;
+         left: 140px;
+         font-size: 10px;
+         color: gray;
+
+    }
+    .filter-article-title1{
+        color: #192F60;
+        font-size: 10px; 
+        font-weight: 600;  
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+ input {
+        margin-top: 5px;
+}
+    
+label{
+    font-size: 10px; 
+    margin-bottom: 10px;
+    color: gray;
+
+   }
+   .filter-article-title2{
+    color: #192F60;
+    font-size: 10px; 
+    font-weight: 600;  
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.filter-article-title3{
+    color: #192F60;
+    font-size: 10px; 
+    font-weight: 600;  
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+    
+.filter-result1{
+    height: 291px;
+    width: 794px;
+    box-shadow: 0px 2px 6px rgb(188, 183, 192);
+    position: absolute;
+    top: 78px;
+    left: 350px;  
+   
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+}
+.filter-result1-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: #192F60;
+}
+.filter-result1-content-title{
+    position: absolute;
+    top: 20x;
+    left: 20%;
+    font-weight:bolder;
+    
+
+}
+.fort{
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    margin-top: 10px;
+    color: #192F60;
+        font-size: 13px;
+        font-weight: 800;
+}
+.fort-address{
+    top: 60px;
+    left: 20%;
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: none;
+     color: #192F60;
+        font-size: 10px; 
+        font-weight: 400;
+}
+.cost{
+     top: 180px;
+    left: 3%;
+    position: absolute;
+     color: #192F60;
+        font-size: 10px; 
+        font-weight: 400;
+}
+.bakery{
+   bottom: 100px;
+    left: 25%;
+    position: absolute; 
+    color: #192F60;
+        font-size: 13px;
+        font-weight: 800;
+}
+.bakery1{
+    bottom: 80px;
+     left: 25%;
+     position: absolute; 
+     color: #192F60;
+         font-size: 13px;
+         font-weight: 800;
+ }
+
+.filter-result2{
+    height: 291px;
+    width: 794px;
+    box-shadow: 0px 2px 6px rgb(188, 183, 192);
+    position: absolute;
+    top: 400px;
+    left: 350px; 
+    
+}
+.pagination{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+.pagination a{
+border: 1px solid gray;
+padding: 5px;
+margin: 4px;
+font-size: 11px;
+border-radius: 4px;
+}
+.page-1{
+background-color: rgb(150, 146, 146);
+}
+.page-start{
+opacity: 0.4;
+}
+
